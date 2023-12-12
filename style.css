@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./images/bg.png) ;
+    background-position: center;
+    background-size: cover;
+   
+}
+p{
+    font-size: 10px;
+    color: #fff;
+    line-height: 16px;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+}
+
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    transition:ease 0.5s;
+}
+
+nav ul li a:hover{
+   color: black;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    height: 88%;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color:#fff;
+    font-size: 100px;
+}
+.desc{
+    font-size: 16px;
+}
+.cards{
+  max-width: 500px;
+  margin: auto;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin: 10px 15px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid red;
+    position: relative;
+    transition:ease 0.5s;
+
+}
+
+
+
+.card:hover{
+    
+   transform: translateY(-10px);
+}
+    
+
+
+.card .card-head{
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 6px;
+  color: #fff;
+  padding: 6px;
+}
+
+.card .card-bottom{
+    position: absolute;
+   bottom: 26px;
+}
+.card.card1{
+    background-image: url(./images/pic-1.png);
+}
+
+.card.card2{
+    background-image: url(./images/pic-2.png);
+}
+
+.card.card3{
+    background-image: url(./images/pic-3.png);
+}
+
+.card.card4{
+    background-image: url(./images/pic-4.png);
+}
+
+.btn{
+    padding:12px 28px;
+    font-size: 12px;
+    font-weight: 700px;
+    margin-top: 30px;
+    cursor: pointer;
+    color:black;
+    background-color: #fff;
+    border-radius: 20px;
+    border:1px solid red;
+    transition:ease 0.5s;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: black ;
+    color:white;
+    border-color: #fff;
+}
+
+
+
